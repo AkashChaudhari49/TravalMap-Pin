@@ -1,0 +1,97 @@
+.App{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card{
+  width:200px;
+  height:250px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  z-index: 1000;
+}
+
+.mapboxgl-popup-close-button {
+    border:1px solid black;
+    color: black;
+}
+
+label{
+  width:max-content;
+  color:tomato;
+  font-size:13px;
+  border-bottom:.5px solid tomato;
+  margin: 3px 0
+}
+
+.star{
+  color:gold
+}
+.username{
+  font-size:15px;
+}
+.date{
+  font-size:12px;
+}
+
+.popup-form{
+  height: 250px;
+  width: 230px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  font-size:14px;
+};
+
+input{
+  border:none;
+  border-bottom:1px solid grey;
+  background-color:grey;
+  border-radius:10px;
+  padding:4px;
+  outline: none;
+  
+}
+
+.submitButton{
+  padding:3px 0;
+  background-color:tomato;
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  outline: none;
+}
+
+.button{
+  border:none;
+  padding:5px;
+  border-radius:5px;
+  color:white;
+  cursor: pointer;
+}
+.login{
+  background-color: teal;
+  margin: 0 5px ;
+  padding:5px 3px;
+}
+.logout{
+  background-color: tomato;
+  padding:5px 3px;
+}
+.username{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.register{
+  background-color: slateblue;
+  margin: 0 5px ;
+  padding:5px 3px;
+}
+.buttons, .logout{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
